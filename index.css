@@ -1,0 +1,39 @@
+/* Fill CSS here */
+h1{
+    text-align: center;
+    color: rgb(68, 68, 218);
+    text-decoration: underline;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+}
+
+form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+form label{
+    font-weight: bold;
+}
+
+table thead tr{
+    background-color: rgb(68, 68, 218);
+    color: white;
+}
+
+table thead tr th{
+    padding: 0.5rem 0.2rem;
+}
+
+table tbody tr{
+    background-color: rgb(198, 175, 140);
+    /* height: 20px; */
+}
+.deletebtn:hover{
+    cursor: pointer;
+}
